@@ -18,7 +18,7 @@ html{
   width: 90%;
   margin: 0px auto;
   padding: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 nav{
@@ -307,4 +307,112 @@ header video{
 .waterfallfee .title h2{
   padding-top: 50px;
   font-size: 2.5rem;
+}
+
+.waterfallfee .rangbar{
+  position: relative;
+  top: 120px;
+  height: 200px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.waterfallfee #waterfallfee{
+  border-radius: 20px;
+  background-color: #dff1eb;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  outline: none;
+}
+
+.waterfallfee #waterfallfee::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 3;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.waterfallfee .rangbar .selector{
+  z-index: 2;
+  position: absolute;
+  top: -7px;
+  left: 0%;
+  width: 200px;
+  height: 200px;
+}
+
+.rangbar .selector .thumb{
+  position: absolute;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 4px solid var(--primary-green);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rangbar .progress{
+  z-index: 1;
+  position: absolute;
+  top: 2px;
+  left: 0%;
+  height: 15px;
+  border-radius: 20px;
+  width: 1%;
+  background-color: rgb(10, 81, 105);
+}
+
+.rangbar .card{
+  position: absolute;
+  background-color: #dff1eb;
+  top: -100px;
+  width: 150px;
+  height: 80px;
+  margin-left: -60px;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 5px;
+  color:  rgb(10, 81, 105);
+}
+.rangbar .card::before{
+  content: "";
+  z-index: -1;
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  border-top: 17px solid  #dff1eb;
+  border-left: 24px solid  #dff1eb;
+  border-right: 24px solid  #dff1eb;
+  transform: rotate(125deg);
+}
+
+
+.waterfallfee .limit{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.waterfallfee .limit span{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgb(211, 211, 211);
+}
+.waterfallfee .limit span::before{
+  content: "";
+  position: absolute;
+  top: 20px;
+  margin-top: 10px;
+  margin-left: 2%;
+  width: 2px;
+  height: 25px;
+  background-color: #dff1eb;
+}
+.waterfallfee .limit span:first-child::before{
+  margin-left: -0%!important;
 }
