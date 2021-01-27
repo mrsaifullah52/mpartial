@@ -6,6 +6,7 @@ import Header from '../Components/Header';
 import Comparison_slider from '../Components/Comparison_slider';
 import HowItWork from '../Components/HowItWork';
 import WaterfallFee from '../Components/WaterfallFee';
+import ExampleDeliverables from '../Components/ExampleDeliverables';
 
 
 
@@ -35,6 +36,7 @@ const Home=()=>{
 
     <HowItWork/>
     <WaterfallFee/>
+    <ExampleDeliverables/>
 
 
 
