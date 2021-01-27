@@ -210,7 +210,6 @@ header video{
   padding: 10px 15px;
 }
 
-/*  */
 .comparison_slider a{
   background-color: var(--primary-green);
   padding: 12px 50px;
@@ -223,4 +222,68 @@ header video{
   left: 50%;
   bottom: 10%;
   transform: translate(-50%);
+}
+
+/* howitworks */
+.howitworks{
+  height: 100vh;
+  width: 100%;
+  padding: 50px 0px;
+  background: rgba(10,81,105,.05);
+}
+.howitworks .title{
+  height: 200px;
+  text-align: center;
+  background-image: url("/src/res/img/o.png");
+  background-position: 50% 30px;
+  background-repeat: no-repeat;
+  background-size: 160px;
+}
+.howitworks .title h2{
+  padding-top: 80px;
+  font-size: 2.5rem;
+}
+.boxs{
+  width: 100%;
+  display: flex;
+}
+.boxs .box{
+  display: flex;
+  align-items: center;
+}
+.boxs .box h3{
+  font-size: 8rem;
+  color: #0a5169;
+}
+.boxs .box h3::before{
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  background: url("/src/res/img/round.png") no-repeat 80px;
+  background-position: 5px;
+}
+
+.boxs .box .body{
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.boxs .box p{
+  font-size: 0.827rem;
+}
+.howitworks .link{
+  margin-top: 125px;
+  width: 100%;
+  text-align: center;
+}
+.howitworks .link a{
+  background-color: var(--primary-green);
+  padding: 12px 50px;
+  font-size: 0.827rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
 }
