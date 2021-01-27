@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import InfoIcon from '@material-ui/icons/Info';
 
 const WaterfalFee=()=>{
 
@@ -59,9 +60,25 @@ const WaterfalFee=()=>{
             <span>$750,000</span>
             <span>$1M+</span>
           </div>
-
-
         </div>
+
+        <div className="info">
+          <p>Drag the slider around based on what you think it will cost to repair the property.Move forward based on the estimated fee structure below.</p>
+        </div>
+
+        <div className="fee">
+          <div className="body">
+            <div className="icon">
+              <InfoIcon/>
+            </div>
+            <div className="details">
+              <b>{0.01}%</b>
+              <p>mpartial Fee</p>
+              <span>[$750 Minimum]</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

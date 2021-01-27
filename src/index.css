@@ -401,7 +401,7 @@ header video{
   margin-top: 40px;
   text-align: center;
   font-size: 0.7rem;
-  color: rgb(211, 211, 211);
+  color: rgb(10, 81, 105);
 }
 .waterfallfee .limit span::before{
   content: "";
@@ -415,4 +415,48 @@ header video{
 }
 .waterfallfee .limit span:first-child::before{
   margin-left: -0%!important;
+}
+
+.waterfallfee .info{
+  width: 45%;
+  margin: 50px auto;
+}
+.waterfallfee .info p{
+  text-align: center;
+  font-size: .880rem;
+}
+
+.waterfallfee .fee{
+  width: 100%;
+}
+.waterfallfee .fee .body{
+  position: relative;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgb(10, 81, 105);
+  margin: 0px auto;
+}
+
+.waterfallfee .fee .body .icon{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #fff;
+}
+.waterfallfee .fee .body .details{
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+.waterfallfee .fee .body .details b{
+  font-size: 1.5rem;
+}
+.waterfallfee .fee .body .details p{
+  font-size: 0.827rem;
+}
+.waterfallfee .fee .body .details span{
+  position: absolute;
+  bottom: -50px;
+  left: 45px;
+  color: rgb(10, 81, 105);
 }
