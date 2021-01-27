@@ -3,8 +3,9 @@ import React from "react";
 // components
 import Navbar from '../Components/Navbar';
 import Header from '../Components/Header';
-import HowItWork from '../Components/HowItWork';
 import Comparison_slider from '../Components/Comparison_slider';
+import HowItWork from '../Components/HowItWork';
+import WaterfallFee from '../Components/WaterfallFee';
 
 
 
@@ -33,6 +34,7 @@ const Home=()=>{
     </section>
 
     <HowItWork/>
+    <WaterfallFee/>
 
 
 
