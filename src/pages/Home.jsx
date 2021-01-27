@@ -1,8 +1,17 @@
 import React from "react";
+
+// components
 import Navbar from '../Components/Navbar';
 import Header from '../Components/Header';
+import HowItWork from '../Components/HowItWork';
+import Comparison_slider from '../Components/Comparison_slider';
+
+
 
 const Home=()=>{
+
+ 
+
   return(<>
     <Navbar/>
     <Header/>
@@ -18,8 +27,18 @@ const Home=()=>{
       </div>
     </section>
 
+    <section className="comparison_slider">
+      <Comparison_slider/>
+      <a href="/">Try Today</a>
+    </section>
+
+    <HowItWork/>
+
+
 
   </>);
 }
+
+
 
 export default Home;
