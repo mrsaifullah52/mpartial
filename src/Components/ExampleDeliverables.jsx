@@ -120,7 +120,14 @@ const ExampleDeliverables=()=>{
             
           </div>
         </div>
-
+      
+        <div className="trueplan">
+          <h3>TruePlan [SKX]</h3>
+          <div className="boxs">
+            <MitigationScan img={trueplan1} txt="Pre-Mitigation Scan"/>
+            <MitigationScan img={trueplan2} txt="Post-Mitigation Scan"/>
+          </div>
+        </div>
       
       </div>
     </section>
