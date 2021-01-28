@@ -7,6 +7,7 @@ import Comparison_slider from '../Components/Comparison_slider';
 import HowItWork from '../Components/HowItWork';
 import WaterfallFee from '../Components/WaterfallFee';
 import ExampleDeliverables from '../Components/ExampleDeliverables';
+import Contact from '../Components/Contact';
 
 
 
@@ -37,7 +38,7 @@ const Home=()=>{
     <HowItWork/>
     <WaterfallFee/>
     <ExampleDeliverables/>
-
+    <Contact/>
 
 
   </>);

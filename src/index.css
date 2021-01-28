@@ -607,12 +607,7 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 50%!important;
-  background-color: #f99;
   counter-increment: item;
-}
-
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
 }
 
 .carousel__slide:before {
@@ -743,4 +738,66 @@ ol, li {
 }
 .trueplan h3{
   padding: 20px 0px;
+}
+
+/* contact section */
+.contact .title{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background: url("./res/img/o.png") no-repeat;
+  background-position: 50% 0px;
+  background-size: 160px;
+
+}
+
+.contact .title h2{
+  padding-top: 50px;
+  font-size: 2.5rem;
+}
+
+.contact .form{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact .form .left,
+.contact .form .right{
+  width: 100%;
+  padding: 15px;
+}
+
+
+.contact input, .contact textarea{
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(10, 81, 105);
+  padding: 10px 15px;
+  color: #928f8f;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contact textarea{
+  height: 80%;
+}
+.contact .button{
+  width: fit-content;
+  margin: 0px auto;
+}
+.contact button{
+  width: 160px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 40px;
+  color: #fff;
+  background-color: #afadad;
+  margin: 0px auto;
 }
