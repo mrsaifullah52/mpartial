@@ -7,12 +7,6 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const Footer=()=>{
 
-  const socialicons=[
-    {icon:"<InstagramIcon/>"},
-    {icon:"<FacebookIcon/>"},
-    {icon:"<LinkedInIcon/>"}
-  ]
-
   return(<footer>
     <div className="container">
       <div className="boxs">
@@ -21,11 +15,9 @@ const Footer=()=>{
         </div>
         <div className="socialicons">
           <ul>
-            {
-              socialicons.map((icon)=>{
-            <li><a href="#">{icon}</a></li>
-              })
-            }
+            <li><a href="#"><InstagramIcon/></a></li>
+            <li><a href="#"><FacebookIcon/></a></li>
+            <li><a href="#"><LinkedInIcon/></a></li>
           </ul>
         </div>
       </div>
