@@ -72,7 +72,7 @@ const WaterfalFee=()=>{
               <InfoIcon/>
             </div>
             <div className="details">
-              <b>{0.01}%</b>
+              <b>{num*2.45}%</b>
               <p>mpartial Fee</p>
               <span>[$750 Minimum]</span>
             </div>
