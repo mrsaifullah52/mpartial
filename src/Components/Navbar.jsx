@@ -3,17 +3,22 @@ import {Link} from "react-router-dom";
 import brand from '../res/img/brand.png';
 
 
-
-
-
 const Navbar=()=>{
 
   window.addEventListener("scroll",()=>{
     const navbar=document.querySelector(".nav nav");
+    const navbarLink=document.querySelectorAll(".nav nav a");
     if(window.scrollY>=200){
         navbar.style.background="#fff";
+        navbarLink.forEach((current)=>{
+          current.style.color="#7e7a7a";
+        })
       }else if(window.scrollY<=200){
         navbar.style.background="transparent";
+        navbarLink.forEach((current)=>{
+          current.style.color="#000";
+        })
+        // navbarLink.style.color="#fff!important";
       }
   })
 

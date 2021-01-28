@@ -2,6 +2,7 @@ import React from "react";
 
 // components
 import Navbar from '../Components/Navbar';
+
 import Header from '../Components/Header';
 import Comparison_slider from '../Components/Comparison_slider';
 import HowItWork from '../Components/HowItWork';
@@ -12,13 +13,13 @@ import Footer from '../Components/Footer';
 
 
 
-const Home=()=>{
 
- 
+const Home=()=>{
 
   return(<>
     <Navbar/>
-    <Header/>
+      <Header/>
+
 
     <section className="mitigation">
       <div className="container">
