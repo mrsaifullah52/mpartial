@@ -774,7 +774,7 @@ ol, li {
   border-radius: 10px;
   outline: none;
   border: 1px solid rgb(10, 81, 105);
-  padding: 10px 15px;
+  padding: 1%0px 15px;
   color: #928f8f;
   font-weight: 600;
   font-size: 1rem;
@@ -800,4 +800,20 @@ ol, li {
   color: #fff;
   background-color: #afadad;
   margin: 0px auto;
+}
+
+/* footer */
+footer{
+  margin-top: 50px;
+  width: 100%;
+  background-color: #0a5169;
+  color: #fff;
+}
+
+footer .socialicons ul{
+  display: flex;
+}
+.socialicons ul li a{
+  padding: 5px;
+  color:#007bff;
 }
