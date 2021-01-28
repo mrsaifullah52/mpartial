@@ -8,6 +8,7 @@ import HowItWork from '../Components/HowItWork';
 import WaterfallFee from '../Components/WaterfallFee';
 import ExampleDeliverables from '../Components/ExampleDeliverables';
 import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
 
 
 
@@ -39,6 +40,7 @@ const Home=()=>{
     <WaterfallFee/>
     <ExampleDeliverables/>
     <Contact/>
+    <Footer/>
 
 
   </>);
